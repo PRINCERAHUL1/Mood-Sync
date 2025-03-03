@@ -20,7 +20,7 @@ function Header() {
     <AppBar position="sticky" sx={{ background: "#000", minHeight: "48px" }}>
       <Toolbar sx={{ minHeight: "48px", paddingX: "12px", justifyContent: "space-between" }}>
         {/* App Logo */}
-        <Typography variant="h6" sx={{ fontSize: "1rem", color: "white" }}>🎧 MoodSync</Typography>
+        <Typography variant="h6" sx={{ fontSize: "1rem", color: "white" }}>🎧 MoodSyncing</Typography>
 
         {isMobile ? (
           <>

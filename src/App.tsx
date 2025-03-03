@@ -65,7 +65,7 @@ function App() {
           }}
         >
           <Typography variant={isMobile ? "h4" : "h2"} fontWeight="bold" gutterBottom>
-            🎵 Mood-Sync
+            🎵 Mood-Syncing
           </Typography>
           <Typography variant={isMobile ? "body1" : "h5"} gutterBottom>
             Your personalized mood-based music playlist generator.

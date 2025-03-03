@@ -1,5 +1,5 @@
 export const CLIENT_ID = import.meta.env.VITE_SPOTIFY_CLIENT_ID;
-export const REDIRECT_URI = "https://PRINCERAHUL1.github.io/Mood-Sync/";
+export const REDIRECT_URI = "https://moodsyncing.netlify.app/";
 export const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
 export const RESPONSE_TYPE = "token";
 const EXPIRATION_TIME = 3600 * 1000; // 1 hour in milliseconds
