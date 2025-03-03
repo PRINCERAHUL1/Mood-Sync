@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom"; // ✅ Use HashRouter
 import App from "./App";
 import Playlists from "./pages/Playlists";
 import MoodInput from "./pages/MoodInput";
@@ -9,7 +9,7 @@ import Logout from "./pages/Logout";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <Router>
+    <Router>  {/* ✅ Changed to HashRouter */}
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/playlists" element={<Playlists />} />
